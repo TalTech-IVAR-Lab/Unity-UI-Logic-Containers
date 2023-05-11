@@ -1,0 +1,24 @@
+{
+  "name": "ee.taltech.ivar.unity-ui-logic-containers",
+  "version": "0.0.1",
+  "displayName": "Unity UI Logic Containers",
+  "description": "Package to help separate logic from visuals in Unity UI hierarchies.",
+  "unity": "2020.3",
+  "keywords": [
+    "unity",
+    "ui",
+    "hierarchy",
+    "logic",
+    "containers"
+  ],
+  "author": {
+    "name": "Yevhen Bondarenko",
+    "email": "yevhen.bondarenko@taltech.ee",
+    "url": "https://gitlab.com/JGroxz"
+  },
+  "dependencies": {
+    "io.extendreality.zinnia.unity": "2.0.0"
+  },
+  "samples": [],
+  "hideInEditor": false
+}

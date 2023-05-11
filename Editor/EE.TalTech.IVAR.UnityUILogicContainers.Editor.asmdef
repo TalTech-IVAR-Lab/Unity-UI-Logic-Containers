@@ -1,0 +1,19 @@
+{
+    "name": "EE.TalTech.IVAR.UnityUILogicContainers.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:23756adb8cb36e64587322ad0ecdf5e3",
+        "GUID:7f6f9fa59701a49148f8ccce48c53d72"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
