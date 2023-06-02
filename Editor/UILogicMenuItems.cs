@@ -19,9 +19,12 @@ namespace EE.TalTech.IVAR.UnityUILogicContainers.Editor
         [MenuItem(LogicContainerMenuName, true)]
         private static bool ValidateAddLogicContainer()
         {
-            if (Selection.activeTransform == null) return false;
-            if (Selection.activeTransform.GetComponent<RectTransform>() == null) return false;
-
+            var activeTransform = Selection.activeTransform;
+            
+            if (activeTransform == null) return false;
+            if (activeTransform.GetComponent<RectTransform>() == null) return false;
+            if (PrefabUtility.IsPartOfAnyPrefab(activeTransform)) return false;
+            
             return true;
         }
     }
