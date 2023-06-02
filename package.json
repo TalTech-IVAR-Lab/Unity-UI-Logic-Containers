@@ -1,6 +1,6 @@
 {
   "name": "ee.taltech.ivar.unity-ui-logic-containers",
-  "version": "0.0.1",
+  "version": "0.0.2-preview.1",
   "displayName": "Unity UI Logic Containers",
   "description": "Package to help separate logic from visuals in Unity UI hierarchies.",
   "unity": "2020.3",
